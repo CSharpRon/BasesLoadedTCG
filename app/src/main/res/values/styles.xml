@@ -17,4 +17,11 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <style name="BaseballTheme" parent="AppBaseTheme" >
+        <item name="android:colorBackground">@color/holo_light_primary</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:colorForeground">@color/common_google_signin_btn_text_dark_pressed
+        </item>
+    </style>
+
 </resources>

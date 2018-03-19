@@ -1,10 +1,25 @@
 <resources>
 
-    <string name="app_name">BasesLoadedTCG</string>
+    <string name="app_name">Grand Slam Baseball All-Stars 2: Electric Boogaloo</string>
     <string name="add_textbox_hint">Add a ToDo item</string>
     <string name="add_button_text">Add</string>
     <string name="service_title">Mobile Apps </string>
     <string name="menu_refresh">Refresh</string>
     <string name="checkbox_text">Item Text</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="default_web_client_id">107377449082-ob12q0vfisjme9be9rpacra1i61l0723.apps.googleusercontent.com</string>
 
 </resources>
