@@ -1,4 +1,4 @@
-package com.example.basesloadedtcg;
+package com.ucfstuds.grandslambaseball2;
 
 
 import java.net.MalformedURLException;
@@ -31,10 +31,7 @@ import com.microsoft.windowsazure.mobileservices.http.ServiceFilter;
 import com.microsoft.windowsazure.mobileservices.http.ServiceFilterRequest;
 import com.microsoft.windowsazure.mobileservices.http.ServiceFilterResponse;
 import com.microsoft.windowsazure.mobileservices.table.MobileServiceTable;
-import com.microsoft.windowsazure.mobileservices.table.query.Query;
-import com.microsoft.windowsazure.mobileservices.table.query.QueryOperations;
 import com.microsoft.windowsazure.mobileservices.table.sync.MobileServiceSyncContext;
-import com.microsoft.windowsazure.mobileservices.table.sync.MobileServiceSyncTable;
 import com.microsoft.windowsazure.mobileservices.table.sync.localstore.ColumnDataType;
 import com.microsoft.windowsazure.mobileservices.table.sync.localstore.MobileServiceLocalStoreException;
 import com.microsoft.windowsazure.mobileservices.table.sync.localstore.SQLiteLocalStore;
@@ -94,7 +91,7 @@ public class ToDoActivity extends Activity {
 
             // Mobile Service URL and key
             mClient = new MobileServiceClient(
-                    "https://basesloadedtcg.azurewebsites.net",
+                    "https://grandslambaseball2.azurewebsites.net",
                     this).withFilter(new ProgressFilter());
 
             // Extend timeout from default of 10s to 20s

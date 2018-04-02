@@ -1,4 +1,4 @@
-package com.example.basesloadedtcg;
+package com.ucfstuds.grandslambaseball2;
 
 /**
  * Represents an item in a ToDo list
