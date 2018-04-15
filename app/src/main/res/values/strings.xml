@@ -6,6 +6,7 @@
     <string name="service_title">Mobile Apps </string>
     <string name="menu_refresh">Refresh</string>
     <string name="checkbox_text">Item Text</string>
+
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
@@ -24,5 +25,6 @@
     <string name="debug_web_client_id">107377449082-9hohj481ds2olcl9v998m0ci6ahfbuhn.apps.googleusercontent.com</string>
     <string name="oauth_web_client_id">107377449082-8ntv4154lbkjn3e9auj921hc9ftfeqq1.apps.googleusercontent.com</string>
     <string name="default_web_client_id">107377449082-ob12q0vfisjme9be9rpacra1i61l0723.apps.googleusercontent.com</string>
+
 
 </resources>

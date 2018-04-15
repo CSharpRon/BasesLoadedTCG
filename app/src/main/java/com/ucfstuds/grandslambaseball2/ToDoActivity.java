@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -31,9 +32,11 @@ import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.SettableFuture;
+
 import com.microsoft.windowsazure.mobileservices.MobileServiceActivityResult;
 import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
 import com.microsoft.windowsazure.mobileservices.authentication.MobileServiceAuthenticationProvider;
+
 import com.microsoft.windowsazure.mobileservices.http.NextServiceFilterCallback;
 import com.microsoft.windowsazure.mobileservices.http.OkHttpClientFactory;
 import com.microsoft.windowsazure.mobileservices.http.ServiceFilter;
@@ -46,11 +49,13 @@ import com.microsoft.windowsazure.mobileservices.table.sync.localstore.MobileSer
 import com.microsoft.windowsazure.mobileservices.table.sync.localstore.SQLiteLocalStore;
 import com.microsoft.windowsazure.mobileservices.table.sync.synchandler.SimpleSyncHandler;
 import com.squareup.okhttp.OkHttpClient;
+
 import android.app.Fragment;
 
 import static com.microsoft.windowsazure.mobileservices.table.query.QueryOperations.*;
 
 public class ToDoActivity extends Activity implements GoogleApiClient.OnConnectionFailedListener {
+
 
     /**
      * Mobile Service Client reference
@@ -83,11 +88,11 @@ public class ToDoActivity extends Activity implements GoogleApiClient.OnConnecti
      */
     private ProgressBar mProgressBar;
 
+
     // You can choose any unique number here to differentiate auth providers from each other. Note this is the same code at login() and onActivityResult().
     public static final int GOOGLE_LOGIN_REQUEST_CODE = 111;
     private GoogleApiClient mGoogleApiClient;
     private Scope[] mScopes;
-
     /**
      * Initializes the activity
      */
@@ -100,6 +105,7 @@ public class ToDoActivity extends Activity implements GoogleApiClient.OnConnecti
 
         // Initialize the progress bar
         mProgressBar.setVisibility(ProgressBar.GONE);
+
 
 //        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
 //                .requestEmail()
@@ -114,15 +120,18 @@ public class ToDoActivity extends Activity implements GoogleApiClient.OnConnecti
 //                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
 //                .build();
 
+
         try {
             // Create the Mobile Service Client instance, using the provided
 
             // Mobile Service URL and key
             mClient = new MobileServiceClient(
+
                     "https://basesloadedtcg.azurewebsites.net",
                     this).withFilter(new ProgressFilter());
 
             authenticate();
+
 
             // Extend timeout from default of 10s to 20s
             mClient.setAndroidHttpClientFactory(new OkHttpClientFactory() {
@@ -134,6 +143,7 @@ public class ToDoActivity extends Activity implements GoogleApiClient.OnConnecti
                     return client;
                 }
             });
+
 
 //            // Get the Mobile Service Table instance to use
 //
@@ -206,6 +216,7 @@ public class ToDoActivity extends Activity implements GoogleApiClient.OnConnecti
 
         // Load the items from Azure.
         refreshItemsFromTable();
+
     }
 
     /**
@@ -524,10 +535,12 @@ public class ToDoActivity extends Activity implements GoogleApiClient.OnConnecti
         }
     }
 
+
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
     }
+
 
     private class ProgressFilter implements ServiceFilter {
 
