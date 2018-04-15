@@ -1,24 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ucfstuds.grandslambaseball2.LoginActivity"
-    android:orientation="vertical">
+    android:background="@color/holo_light_primary"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.ucfstuds.grandslambaseball2.LoginActivity">
 
-    <com.google.android.gms.common.SignInButton
-        android:id="@+id/sign_in_button"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"/>
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:text="Sign in to Google+ to play some baseball!"
+        android:textAlignment="center"
+        android:textDirection="firstStrongLtr"
+        android:textSize="25dp"
+        android:typeface="serif" />
 
-    <FrameLayout
-        android:id="@+id/login"
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/white"></FrameLayout>
+        android:layout_gravity="fill"
+        android:baselineAligned="false">
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginStart="11mm" />
 
 
+    </LinearLayout>
 
 </LinearLayout>
+
