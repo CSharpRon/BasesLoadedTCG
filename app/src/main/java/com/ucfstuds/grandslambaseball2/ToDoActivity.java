@@ -10,9 +10,12 @@ import java.util.concurrent.TimeUnit;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,11 +23,20 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.Scope;
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.SettableFuture;
+
+import com.microsoft.windowsazure.mobileservices.MobileServiceActivityResult;
 import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
+import com.microsoft.windowsazure.mobileservices.authentication.MobileServiceAuthenticationProvider;
+
 import com.microsoft.windowsazure.mobileservices.http.NextServiceFilterCallback;
 import com.microsoft.windowsazure.mobileservices.http.OkHttpClientFactory;
 import com.microsoft.windowsazure.mobileservices.http.ServiceFilter;
@@ -38,9 +50,12 @@ import com.microsoft.windowsazure.mobileservices.table.sync.localstore.SQLiteLoc
 import com.microsoft.windowsazure.mobileservices.table.sync.synchandler.SimpleSyncHandler;
 import com.squareup.okhttp.OkHttpClient;
 
+import android.app.Fragment;
+
 import static com.microsoft.windowsazure.mobileservices.table.query.QueryOperations.*;
 
-public class ToDoActivity extends Activity {
+public class ToDoActivity extends Activity implements GoogleApiClient.OnConnectionFailedListener {
+
 
     /**
      * Mobile Service Client reference
@@ -73,6 +88,11 @@ public class ToDoActivity extends Activity {
      */
     private ProgressBar mProgressBar;
 
+
+    // You can choose any unique number here to differentiate auth providers from each other. Note this is the same code at login() and onActivityResult().
+    public static final int GOOGLE_LOGIN_REQUEST_CODE = 111;
+    private GoogleApiClient mGoogleApiClient;
+    private Scope[] mScopes;
     /**
      * Initializes the activity
      */
@@ -86,13 +106,32 @@ public class ToDoActivity extends Activity {
         // Initialize the progress bar
         mProgressBar.setVisibility(ProgressBar.GONE);
 
+
+//        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+//                .requestEmail()
+//                .requestIdToken(getString(R.string.default_web_client_id))
+//                .requestServerAuthCode(getString(R.string.default_web_client_id))
+//                .build();
+//
+//        mScopes = gso.getScopeArray();
+//
+//        mGoogleApiClient = new GoogleApiClient.Builder(this)
+//                .enableAutoManage(this, this)
+//                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
+//                .build();
+
+
         try {
             // Create the Mobile Service Client instance, using the provided
 
             // Mobile Service URL and key
             mClient = new MobileServiceClient(
-                    "https://grandslambaseball2.azurewebsites.net",
+
+                    "https://basesloadedtcg.azurewebsites.net",
                     this).withFilter(new ProgressFilter());
+
+            authenticate();
+
 
             // Extend timeout from default of 10s to 20s
             mClient.setAndroidHttpClientFactory(new OkHttpClientFactory() {
@@ -105,31 +144,79 @@ public class ToDoActivity extends Activity {
                 }
             });
 
-            // Get the Mobile Service Table instance to use
 
-            mToDoTable = mClient.getTable(ToDoItem.class);
-
-            // Offline Sync
-            //mToDoTable = mClient.getSyncTable("ToDoItem", ToDoItem.class);
-
-            //Init local storage
-            initLocalStore().get();
-
-            mTextNewToDo = (EditText) findViewById(R.id.textNewToDo);
-
-            // Create an adapter to bind the items with the view
-            mAdapter = new ToDoItemAdapter(this, R.layout.row_list_to_do);
-            ListView listViewToDo = (ListView) findViewById(R.id.listViewToDo);
-            listViewToDo.setAdapter(mAdapter);
-
-            // Load the items from the Mobile Service
-            refreshItemsFromTable();
+//            // Get the Mobile Service Table instance to use
+//
+//            mToDoTable = mClient.getTable(ToDoItem.class);
+//
+//            // Offline Sync
+//            //mToDoTable = mClient.getSyncTable("ToDoItem", ToDoItem.class);
+//
+//            //Init local storage
+//            initLocalStore().get();
+//
+//            mTextNewToDo = (EditText) findViewById(R.id.textNewToDo);
+//
+//            // Create an adapter to bind the items with the view
+//            mAdapter = new ToDoItemAdapter(this, R.layout.row_list_to_do);
+//            ListView listViewToDo = (ListView) findViewById(R.id.listViewToDo);
+//            listViewToDo.setAdapter(mAdapter);
+//
+//            // Load the items from the Mobile Service
+//            refreshItemsFromTable();
 
         } catch (MalformedURLException e) {
             createAndShowDialog(new Exception("There was an error creating the Mobile Service. Verify the URL"), "Error");
         } catch (Exception e){
             createAndShowDialog(e, "Error");
         }
+    }
+
+    private void authenticate() {
+        // Login using the Google provider.
+        mClient.login(MobileServiceAuthenticationProvider.Google, "basesloadedtcg", GOOGLE_LOGIN_REQUEST_CODE);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        // When request completes
+        if (resultCode == RESULT_OK) {
+            // Check the request code matches the one we send in the login request
+            if (requestCode == GOOGLE_LOGIN_REQUEST_CODE) {
+                MobileServiceActivityResult result = mClient.onActivityResult(data);
+                if (result.isLoggedIn()) {
+                    // login succeeded
+                    String userID = mClient.getCurrentUser().getUserId();
+
+                    createAndShowDialog(String.format("You are now logged in - %1$2s", mClient.getCurrentUser().getUserId()), "Success");
+                    createTable();
+                } else {
+                    // login failed, check the error message
+                    String errorMessage = result.getErrorMessage();
+                    createAndShowDialog(errorMessage, "Error");
+                }
+            }
+        }
+    }
+
+    private void createTable() {
+
+        // Get the table instance to use.
+        mToDoTable = mClient.getTable(ToDoItem.class);
+
+        //Init local storage
+        //initLocalStore().get();
+
+        mTextNewToDo = (EditText) findViewById(R.id.textNewToDo);
+
+        // Create an adapter to bind the items with the view.
+        mAdapter = new ToDoItemAdapter(this, R.layout.row_list_to_do);
+        ListView listViewToDo = (ListView) findViewById(R.id.listViewToDo);
+        listViewToDo.setAdapter(mAdapter);
+
+        // Load the items from Azure.
+        refreshItemsFromTable();
+
     }
 
     /**
@@ -447,6 +534,13 @@ public class ToDoActivity extends Activity {
             return task.execute();
         }
     }
+
+
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+    }
+
 
     private class ProgressFilter implements ServiceFilter {
 
