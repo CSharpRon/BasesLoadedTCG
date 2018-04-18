@@ -1076,6 +1076,7 @@ GameObject:
   - component: {fileID: 514164321}
   - component: {fileID: 514164323}
   - component: {fileID: 514164322}
+  - component: {fileID: 514164324}
   m_Layer: 5
   m_Name: Panel (1)
   m_TagString: Untagged
@@ -1146,6 +1147,31 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 514164320}
+--- !u!114 &514164324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 514164320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983c4cbd4afae92448b3d82473e87f2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropdown: {fileID: 0}
+  playerDropdown: {fileID: 0}
+  selectedName: {fileID: 0}
+  newTeamName: {fileID: 0}
+  teamNames: []
+  playerIndex: 0
+  pImage: {fileID: 0}
+  nameText: {fileID: 0}
+  rarityText: {fileID: 0}
+  strengthText: {fileID: 0}
+  staminaText: {fileID: 0}
+  speedText: {fileID: 0}
+  styleText: {fileID: 0}
+  accuracyText: {fileID: 0}
 --- !u!1 &560287408
 GameObject:
   m_ObjectHideFlags: 0
@@ -2094,14 +2120,14 @@ MonoBehaviour:
   newTeamName: {fileID: 1517263809}
   teamNames: []
   playerIndex: 0
-  pImage: {fileID: 0}
-  nameText: {fileID: 0}
-  rarityText: {fileID: 0}
-  strengthText: {fileID: 0}
-  staminaText: {fileID: 0}
-  speedText: {fileID: 0}
-  styleText: {fileID: 0}
-  accuracyText: {fileID: 0}
+  pImage: {fileID: 1617469004}
+  nameText: {fileID: 195652407}
+  rarityText: {fileID: 1989693832}
+  strengthText: {fileID: 59746178}
+  staminaText: {fileID: 207417030}
+  speedText: {fileID: 1007171738}
+  styleText: {fileID: 1493535973}
+  accuracyText: {fileID: 2109623389}
 --- !u!1 &1275391823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2610,7 +2636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -350, y: -261}
+  m_AnchoredPosition: {x: -300, y: -261}
   m_SizeDelta: {x: 415.6, y: 75.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1477035733
@@ -3170,7 +3196,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9d74f9c75508cc04e9560c1c68545e6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3351,6 +3377,7 @@ GameObject:
   - component: {fileID: 1775876307}
   - component: {fileID: 1775876306}
   - component: {fileID: 1775876305}
+  - component: {fileID: 1775876308}
   m_Layer: 5
   m_Name: prevButton
   m_TagString: Untagged
@@ -3416,7 +3443,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1775876308}
         m_MethodName: previous
         m_Mode: 1
         m_Arguments:
@@ -3462,6 +3489,31 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1775876303}
+--- !u!114 &1775876308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1775876303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983c4cbd4afae92448b3d82473e87f2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropdown: {fileID: 0}
+  playerDropdown: {fileID: 0}
+  selectedName: {fileID: 0}
+  newTeamName: {fileID: 0}
+  teamNames: []
+  playerIndex: 0
+  pImage: {fileID: 1617469004}
+  nameText: {fileID: 195652407}
+  rarityText: {fileID: 1989693832}
+  strengthText: {fileID: 59746178}
+  staminaText: {fileID: 207417030}
+  speedText: {fileID: 1007171738}
+  styleText: {fileID: 1493535973}
+  accuracyText: {fileID: 2109623389}
 --- !u!1 &1826355143
 GameObject:
   m_ObjectHideFlags: 0
@@ -3722,6 +3774,7 @@ GameObject:
   - component: {fileID: 1875633660}
   - component: {fileID: 1875633659}
   - component: {fileID: 1875633658}
+  - component: {fileID: 1875633661}
   m_Layer: 5
   m_Name: nextButton
   m_TagString: Untagged
@@ -3787,7 +3840,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1875633661}
         m_MethodName: next
         m_Mode: 1
         m_Arguments:
@@ -3833,6 +3886,31 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1875633656}
+--- !u!114 &1875633661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1875633656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983c4cbd4afae92448b3d82473e87f2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropdown: {fileID: 0}
+  playerDropdown: {fileID: 0}
+  selectedName: {fileID: 0}
+  newTeamName: {fileID: 0}
+  teamNames: []
+  playerIndex: 0
+  pImage: {fileID: 1617469004}
+  nameText: {fileID: 195652407}
+  rarityText: {fileID: 1989693832}
+  strengthText: {fileID: 59746178}
+  staminaText: {fileID: 207417030}
+  speedText: {fileID: 1007171738}
+  styleText: {fileID: 1493535973}
+  accuracyText: {fileID: 2109623389}
 --- !u!1 &1921829522
 GameObject:
   m_ObjectHideFlags: 0

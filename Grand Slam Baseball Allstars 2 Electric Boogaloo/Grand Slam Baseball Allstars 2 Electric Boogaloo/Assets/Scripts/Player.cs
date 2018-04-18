@@ -4,11 +4,14 @@ using System.IO;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
-	public int strength;
-	public int stamina;
-	public int speed;
-	public int style;
-	public int accuracy;
+    public string PlayerName;
+    public Sprite PlayerSprite;
+    public string PlayerRarity;
+	public int PlayerStrength;
+	public int PlayerStamina;
+	public int PlayerSpeed;
+	public int PlayerStyle;
+	public int PlayerAccuracy;
 	public Ball ball;
 	private Sprite sprite;
 	public Vector3 oldPosition;
@@ -29,7 +32,7 @@ public class Player : MonoBehaviour {
 
 	// Pitch the ball based on the pitcher's power
 	public void Pitch(){
-		Vector3 power = new Vector3(0.0f, (float)(-strength/4) + (float)(Random.Range(-4, -1) * 2), 0.0f);
+		Vector3 power = new Vector3(0.0f, (float)(-PlayerStrength/4) + (float)(Random.Range(-4, -1) * 2), 0.0f);
 		ball.velocity = power;
 		ball.airTime = .5f;
 		ball.pitched = true;
@@ -42,9 +45,9 @@ public class Player : MonoBehaviour {
 		float ballSpeed = -ball.velocity.y;
 		if (ball.pitched) {
 			ball.pitched = false;
-			if (ballSpeed < accuracy * 2 + (Random.Range (0, 3) * 2)) {
-				ball.velocity.y = ballSpeed + (strength / 2);
-				float xRange = (Random.Range (10f, 15f) - accuracy) / 2;
+			if (ballSpeed < PlayerAccuracy * 2 + (Random.Range (0, 3) * 2)) {
+				ball.velocity.y = ballSpeed + (PlayerStrength / 2);
+				float xRange = (Random.Range (10f, 15f) - PlayerAccuracy) / 2;
 				ball.velocity.x = Random.Range (-xRange, xRange);
 				ball.airTime = 2f;
 				ball.pitched = false;
@@ -78,17 +81,17 @@ public class Player : MonoBehaviour {
 			targetBase += 1;
 		}
 		else
-			transform.position = Vector3.MoveTowards (transform.position, position, (speed * Time.deltaTime) / 2);
+			transform.position = Vector3.MoveTowards (transform.position, position, (PlayerSpeed * Time.deltaTime) / 2);
 	}
 
 	//Pass the ball, based on accuracy and strength
 	public void Pass(Vector3 position){
-		ball.transform.position = Vector3.MoveTowards (ball.transform.position, position, strength / 5);
+		ball.transform.position = Vector3.MoveTowards (ball.transform.position, position, PlayerStrength / 5);
 	}
 
 	//Move in the way of the ball, based on speed and stamina
 	public void Intercept(){
-		transform.position = Vector3.MoveTowards (this.transform.position, ball.transform.position, (speed * Time.deltaTime)/4);
+		transform.position = Vector3.MoveTowards (this.transform.position, ball.transform.position, (PlayerSpeed * Time.deltaTime)/4);
 		Catch ();
 	}
 }

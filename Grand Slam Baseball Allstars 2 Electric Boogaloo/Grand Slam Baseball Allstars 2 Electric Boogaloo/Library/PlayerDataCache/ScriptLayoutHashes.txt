@@ -2,9 +2,12 @@ Android
 PlayerPath?
 D:/DEV/GitHubRepos/BasesLoadedTCG/Android Studio Game Project/V2
 SceneListBegin?
+Assets/MainMenu.unity
+Assets/Collection.unity
+Assets/ManageTeams.unity
 Assets/game.unity
 SceneListEnd?
-0c5b6ccc4370de4707d0129ff9c21e16 Assembly-CSharp.dll:.Team
+73ba9bf98b83b9b96fa38e2af6e2389a Assembly-CSharp.dll:.Team
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -116,9 +119,10 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 f299ab005c9e0c95f3d1e399bc2c55e5 Assembly-CSharp.dll:.Ball
-b32a7b627b3c3b469a0ec3010d9108fb Assembly-CSharp.dll:.Player
+4b24cd329bba1af5e64ae1847b394c6c Assembly-CSharp.dll:.Player
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenu
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -151,3 +155,5 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+58d949f21a58e7d80082e49faf667102 Assembly-CSharp.dll:.Collection
+dfd8bd042d29896987de50c5b0bbfb50 Assembly-CSharp.dll:.ManageTeams

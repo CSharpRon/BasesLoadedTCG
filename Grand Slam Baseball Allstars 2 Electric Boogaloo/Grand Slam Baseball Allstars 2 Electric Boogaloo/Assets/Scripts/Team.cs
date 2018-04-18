@@ -19,8 +19,8 @@ public class Team : MonoBehaviour {
 	public int score;
 	public int swaps;
 
-    [SerializeField]
-    private Text Text2 = null;
+    //[SerializeField]
+    //private Text Text2 = null;
 
 	// Use this for initialization
 	void Start () {
@@ -31,12 +31,23 @@ public class Team : MonoBehaviour {
 		swaps = 0;
 		startRun = true;
 		startTurn = true;
+        List<String> team;
 
-		//get the scripts on the players
-		players = this.GetComponentsInChildren<Player>();
+        //get the scripts on the players
+        players = this.GetComponentsInChildren<Player>();
 
-        List<String> team = new List<String>
+        PlayerPrefs.SetString("team_members", "Derek Jeter,Bill Hands,Danny DeVito,Don Mossi,Ed Mathews,Eddie Murray,Mace Windu,Mark McGwire,Ozzie Smith,Palm Tree");
+
+        string members = PlayerPrefs.GetString("team_members");
+
+        if (!String.IsNullOrEmpty(members))
         {
+            team = members.Split(',').ToList();
+        }
+        else
+        {
+            team = new List<String>
+            {
             "Derek Jeter",
             "Bill Hands",
             "Danny DeVito",
@@ -47,10 +58,10 @@ public class Team : MonoBehaviour {
             "Mark McGwire",
             "Ozzie Smith",
             "Palm Tree"
-        };
+            };
+        }
 
         generateTeam(team);
-		//generateRandomTeam ();
 
 		if (!pitching) {
 			players[up4bat].transform.position = new Vector3(-.74f, -7.53f, 0f);
@@ -224,22 +235,6 @@ public class Team : MonoBehaviour {
         SpriteRenderer[] sprites = this.GetComponentsInChildren<SpriteRenderer>();
         string path;
 
-        //get info on all the cards in the folder
-        // path = Application.persistentDataPath +  "/Cards/";
-        //string _path = Application.dataPath + "/StreamingAssets";
-
-        // path = "jar:file://" + Application.dataPath + "!/assets/Cards";
-
-        //if (Text2 != null)
-        //    Text2.text = path;
-
-
-        //#if UNITY_STANDALONE || UNITY_EDITOR
-        //path = Application.streamingAssetsPath + "/Cards";
-        //#endif
-        
-        // string[] fileInfo = Directory.GetFiles(path);
-
         for(int i = 0; i < players.Count(); i++)
         {
             string file;
@@ -259,9 +254,6 @@ public class Team : MonoBehaviour {
             TextAsset stats = (TextAsset)Resources.Load("Cards/" + folder + "stats");
 
             string raw = stats.text;
-            //raw = raw.Replace(@"\r", "");
-            //raw = raw.Replace(@"\n", @"\");
-            //string[] text = raw.Split('\\');
 
             string[] text = raw.Split(
             new[] { "\r\n", "\r", "\n" },
@@ -269,11 +261,11 @@ public class Team : MonoBehaviour {
             );
 
             players[i].name = text[0];
-            players[i].strength = Int32.Parse(text[2]);
-            players[i].stamina = Int32.Parse(text[3]);
-            players[i].speed = Int32.Parse(text[4]);
-            players[i].style = Int32.Parse(text[5]);
-            players[i].accuracy = Int32.Parse(text[6]);
+            players[i].PlayerStrength = Int32.Parse(text[2]);
+            players[i].PlayerStamina = Int32.Parse(text[3]);
+            players[i].PlayerSpeed = Int32.Parse(text[4]);
+            players[i].PlayerStyle = Int32.Parse(text[5]);
+            players[i].PlayerAccuracy = Int32.Parse(text[6]);
         }
     }
 
@@ -318,12 +310,13 @@ public class Team : MonoBehaviour {
 			//and the path for the stats
 			string infoP = Path.GetFullPath("Assets\\Sprites\\Cards\\" + name + "\\stats.txt");
 			string [] text = File.ReadAllLines (infoP);
+            players[i].PlayerRarity = text[1];
 			players [i].name = text [0];
-			players [i].strength = Int32.Parse(text [2]);
-			players [i].stamina = Int32.Parse(text [3]);
-			players [i].speed = Int32.Parse(text [4]);
-			players [i].style = Int32.Parse(text [5]);
-			players [i].accuracy = Int32.Parse(text [6]);
+			players [i].PlayerStrength = Int32.Parse(text [2]);
+			players [i].PlayerStamina = Int32.Parse(text [3]);
+			players [i].PlayerSpeed = Int32.Parse(text [4]);
+			players [i].PlayerStyle = Int32.Parse(text [5]);
+			players [i].PlayerAccuracy = Int32.Parse(text [6]);
 		}
 	}
 

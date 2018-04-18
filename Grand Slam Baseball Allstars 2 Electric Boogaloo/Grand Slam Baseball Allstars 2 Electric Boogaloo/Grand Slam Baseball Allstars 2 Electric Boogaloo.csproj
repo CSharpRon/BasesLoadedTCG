@@ -235,6 +235,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Collection.cs" />
+    <Compile Include="Assets\MainMenu.cs" />
+    <Compile Include="Assets\ManageTeams.cs" />
     <Compile Include="Assets\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\IMG2Sprite.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
@@ -342,56 +345,6 @@
     <None Include="Assets\Sprites\Cards\Tug McGraw\stats.txt" />
     <None Include="Assets\Sprites\Cards\Wayne Garland\stats.txt" />
     <None Include="Assets\Sprites\Cards\Will Ferrell\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Addison Russell\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Alex Faedo\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Andy Messersmith\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Bill Hands\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Bill Ripken\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Bob Clemente\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Cal Ripken\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Cecil Cooper\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Chet Lemon\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Chuck Schilling\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Cody Bellinger\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Craig Kusick\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Danny DeVito\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Darwin Barney\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Derek Jeter\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Don Mossi\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Ed Mathews\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Eddie Murray\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Edwin Encarnacion\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\George Brett\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\George Costanza\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Glenn Hubbard\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Greg Maddux\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Gregg Jefferies\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Hank Aaron\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Jim Gantner\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Jim Piersall\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Jimmy Foxx\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Joe Foy\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Kris Bryant\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Lee Tunnell\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Mace Windu\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Mark McGwire\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Mickey Hatcher\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Mickey Mantle\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Nomar Garciaparra\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Oscar Gamble\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Ozzie Smith\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Palm Tree\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Pete Rose\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Quark\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Roger Maris\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Ron Santo\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Ryne Sandberg\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Sammy Sosa\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Ted Williams\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Tony Gwynn\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Tug McGraw\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Wayne Garland\stats.txt" />
-    <None Include="Assets\StreamingAssets\Cards\Will Ferrell\stats.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
