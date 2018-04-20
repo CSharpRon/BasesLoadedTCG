@@ -1,0 +1,321 @@
+<aars>
+  <explodeData>
+    <aar>android.arch.core.common-1.0.0</aar>
+    <modificationTime>0001-01-01T00:00:00.0000000-05:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/android.arch.core.common-1.0.0.jar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>android.arch.lifecycle.common-1.0.0</aar>
+    <modificationTime>0001-01-01T00:00:00.0000000-05:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/android.arch.lifecycle.common-1.0.0.jar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>android.arch.lifecycle.runtime-1.0.0</aar>
+    <modificationTime>2018-04-18T18:19:22.0891200-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/android.arch.lifecycle.runtime-1.0.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.android.support.support-annotations-26.1.0</aar>
+    <modificationTime>0001-01-01T00:00:00.0000000-05:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.android.support.support-annotations-26.1.0.jar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.android.support.support-compat-26.1.0</aar>
+    <modificationTime>2018-04-18T18:19:22.4320683-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.android.support.support-compat-26.1.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.android.support.support-core-ui-26.1.0</aar>
+    <modificationTime>2018-04-18T18:19:22.4606128-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.android.support.support-core-ui-26.1.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.android.support.support-core-utils-26.1.0</aar>
+    <modificationTime>2018-04-18T18:19:22.4836702-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.android.support.support-core-utils-26.1.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.android.support.support-fragment-26.1.0</aar>
+    <modificationTime>2018-04-18T18:19:22.5057314-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.android.support.support-fragment-26.1.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.android.support.support-media-compat-26.1.0</aar>
+    <modificationTime>2018-04-18T18:19:22.5297930-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.android.support.support-media-compat-26.1.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.android.support.support-v4-26.1.0</aar>
+    <modificationTime>2018-04-18T18:19:22.5478405-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.android.support.support-v4-26.1.0.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.android.gms.play-services-base-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.5719045-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-base-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.android.gms.play-services-base-license-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.5944660-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-base-license-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.android.gms.play-services-basement-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.6165232-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-basement-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.android.gms.play-services-basement-license-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.6430949-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-basement-license-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.android.gms.play-services-tasks-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.6651531-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-tasks-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.android.gms.play-services-tasks-license-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.6887153-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.android.gms.play-services-tasks-license-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-analytics-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.7087716-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-analytics-impl-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.7353398-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-impl-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-analytics-impl-license-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.7584021-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-impl-license-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-analytics-license-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.7809651-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-analytics-license-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-app-unity-4.5.1</aar>
+    <modificationTime>2018-04-18T18:19:35.6974154-04:00</modificationTime>
+    <explode>true</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-app-unity-4.5.1.aar</path>
+    <targetAbi>fat</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-auth-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.8457394-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-auth-license-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.8733109-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-license-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-auth-unity-4.5.1</aar>
+    <modificationTime>2018-04-18T18:19:36.3072812-04:00</modificationTime>
+    <explode>true</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-auth-unity-4.5.1.aar</path>
+    <targetAbi>fat</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-common-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:37.3384240-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-common-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-common-license-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.9374821-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-common-license-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-core-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:37.8745249-04:00</modificationTime>
+    <explode>true</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-core-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-iid-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:38.8807935-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-iid-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+  <explodeData>
+    <aar>com.google.firebase.firebase-iid-license-12.0.1</aar>
+    <modificationTime>2018-04-18T18:19:22.9891190-04:00</modificationTime>
+    <explode>false</explode>
+    <bundleId>com.ucfstuds.grandslambaseball2</bundleId>
+    <path>Assets/Plugins/Android/com.google.firebase.firebase-iid-license-12.0.1.aar</path>
+    <targetAbi>universal</targetAbi>
+    <gradleBuildEnabled>true</gradleBuildEnabled>
+    <gradleExport>true</gradleExport>
+    <ignoredVersion />
+  </explodeData>
+</aars>
