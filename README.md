@@ -8,3 +8,7 @@ The idea behind this project was simple: create a mobile app where users could c
 To this end, we decided on a Unity project. Since it leverages the power of the Mono framework to build games on both iOS and Android, we knew it would be the perfect choice to achieve our goal. The next big decision to make was where data would be hosted.
 
 While there were other backend options for game storage, we ultimately decided on Google's Realtime Database: Firebase. 
+
+
+# Build Instructions
+Either launch the android studio project (BasesLoadedTCG/Android Studio Project) from an android device (version 6.0 or later), or build the unity project folder (BasesLoadedTCG/Grand Slam Baseball Allstars 2 Electric Boogaloo) in the unity editor. When built from the editor, the game can be built for either windows or android.
