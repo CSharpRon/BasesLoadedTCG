@@ -1,0 +1,458 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\506d36f109fe195dfe9bda4df3f3b74e\AndroidManifest.xml:17:1-30:12
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\5ca0dd6176b41f3d8f144990c1b8bffb\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\7cae04e5cfd3c42a6d1f91039547ec96\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\ae41b941591fa6edf9e7d3fdac456ae8\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\c06683986ef66a64117e955b13afd68e\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\9bbcb7419f4ed4f6bd34ec9180daf1ba\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\2018cb3303487d757011177627cb337c\AndroidManifest.xml:17:1-31:12
+MERGED from [:com.google.android.gms.play-services-base-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-12.0.1.aar\3dcf5f7efb7ba3bd935fd6f41f2b1240\AndroidManifest.xml:17:1-29:12
+MERGED from [:com.google.android.gms.play-services-base-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-license-12.0.1.aar\acf9db355b2c6cda0e9cd67cc089ac4d\AndroidManifest.xml:17:1-24:12
+MERGED from [:com.google.android.gms.play-services-basement-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-12.0.1.aar\1efac821fbf512637e9203e5fac001ef\AndroidManifest.xml:17:1-28:12
+MERGED from [:com.google.android.gms.play-services-basement-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-license-12.0.1.aar\8ee6e606b535ec75608dd690a36f0a18\AndroidManifest.xml:17:1-24:12
+MERGED from [:com.google.android.gms.play-services-tasks-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-12.0.1.aar\1404505de2712ba82440e5709fd061c5\AndroidManifest.xml:2:1-9:12
+MERGED from [:com.google.android.gms.play-services-tasks-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-license-12.0.1.aar\ef6f423c591ab4c92f5536bf72466ee9\AndroidManifest.xml:17:1-24:12
+MERGED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:17:1-54:12
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:17:1-40:12
+MERGED from [:com.google.firebase.firebase-analytics-impl-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-license-12.0.1.aar\bb6bf9a3c3e12a03fea8ffa58e030313\AndroidManifest.xml:17:1-24:12
+MERGED from [:com.google.firebase.firebase-analytics-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-license-12.0.1.aar\7f7a1c91ba0313e01bcab7b370e4f200\AndroidManifest.xml:17:1-24:12
+MERGED from [:com.google.firebase.firebase-app-unity-4.5.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-app-unity-4.5.1.aar\7f37405e330c468e59f9467aa255d619\AndroidManifest.xml:3:1-8:12
+MERGED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:17:1-32:12
+MERGED from [:com.google.firebase.firebase-auth-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-license-12.0.1.aar\abe10d004572615767ae2a493c54adba\AndroidManifest.xml:17:1-24:12
+MERGED from [:com.google.firebase.firebase-auth-unity-4.5.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-unity-4.5.1.aar\f56bd92d4adefdf0916a73439f9e2bfc\AndroidManifest.xml:3:1-8:12
+MERGED from [:com.google.firebase.firebase-common-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-12.0.1.aar\44b2f91ee824f60b89f62e0bc202bed9\AndroidManifest.xml:2:1-15:12
+MERGED from [:com.google.firebase.firebase-common-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-license-12.0.1.aar\fc82feb338cf43726579746fc054f24d\AndroidManifest.xml:17:1-24:12
+MERGED from [:com.google.firebase.firebase-core-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-core-12.0.1.aar\32bfde482aa715276194cc52b5e02ecd\AndroidManifest.xml:2:1-6:12
+MERGED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:17:1-59:12
+MERGED from [:com.google.firebase.firebase-iid-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-license-12.0.1.aar\cca92343bc29cbab30d6971ca9d9959f\AndroidManifest.xml:17:1-24:12
+MERGED from [:Firebase] C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\Firebase\build\intermediates\manifests\full\debug\AndroidManifest.xml:10:1-19:12
+INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:70-111
+		INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:159-184
+		INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:112-158
+	xmlns:android
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:185-208
+		INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:2:209-249
+supports-screens
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:3:135-160
+application
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:4:3-16:17
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\506d36f109fe195dfe9bda4df3f3b74e\AndroidManifest.xml:24:5-28:19
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\506d36f109fe195dfe9bda4df3f3b74e\AndroidManifest.xml:24:5-28:19
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\5ca0dd6176b41f3d8f144990c1b8bffb\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\5ca0dd6176b41f3d8f144990c1b8bffb\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\7cae04e5cfd3c42a6d1f91039547ec96\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\7cae04e5cfd3c42a6d1f91039547ec96\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\ae41b941591fa6edf9e7d3fdac456ae8\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\ae41b941591fa6edf9e7d3fdac456ae8\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\c06683986ef66a64117e955b13afd68e\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\c06683986ef66a64117e955b13afd68e\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\9bbcb7419f4ed4f6bd34ec9180daf1ba\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\9bbcb7419f4ed4f6bd34ec9180daf1ba\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\2018cb3303487d757011177627cb337c\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\2018cb3303487d757011177627cb337c\AndroidManifest.xml:25:5-29:19
+MERGED from [:com.google.android.gms.play-services-base-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-12.0.1.aar\3dcf5f7efb7ba3bd935fd6f41f2b1240\AndroidManifest.xml:22:5-27:19
+MERGED from [:com.google.android.gms.play-services-base-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-12.0.1.aar\3dcf5f7efb7ba3bd935fd6f41f2b1240\AndroidManifest.xml:22:5-27:19
+MERGED from [:com.google.android.gms.play-services-base-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-license-12.0.1.aar\acf9db355b2c6cda0e9cd67cc089ac4d\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-base-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-license-12.0.1.aar\acf9db355b2c6cda0e9cd67cc089ac4d\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-basement-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-12.0.1.aar\1efac821fbf512637e9203e5fac001ef\AndroidManifest.xml:22:5-26:19
+MERGED from [:com.google.android.gms.play-services-basement-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-12.0.1.aar\1efac821fbf512637e9203e5fac001ef\AndroidManifest.xml:22:5-26:19
+MERGED from [:com.google.android.gms.play-services-basement-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-license-12.0.1.aar\8ee6e606b535ec75608dd690a36f0a18\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-basement-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-license-12.0.1.aar\8ee6e606b535ec75608dd690a36f0a18\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-tasks-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-12.0.1.aar\1404505de2712ba82440e5709fd061c5\AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-tasks-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-12.0.1.aar\1404505de2712ba82440e5709fd061c5\AndroidManifest.xml:7:5-20
+MERGED from [:com.google.android.gms.play-services-tasks-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-license-12.0.1.aar\ef6f423c591ab4c92f5536bf72466ee9\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.android.gms.play-services-tasks-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-license-12.0.1.aar\ef6f423c591ab4c92f5536bf72466ee9\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:27:5-52:19
+MERGED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:27:5-52:19
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:27:5-38:19
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:27:5-38:19
+MERGED from [:com.google.firebase.firebase-analytics-impl-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-license-12.0.1.aar\bb6bf9a3c3e12a03fea8ffa58e030313\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.firebase.firebase-analytics-impl-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-license-12.0.1.aar\bb6bf9a3c3e12a03fea8ffa58e030313\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.firebase.firebase-analytics-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-license-12.0.1.aar\7f7a1c91ba0313e01bcab7b370e4f200\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.firebase.firebase-analytics-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-license-12.0.1.aar\7f7a1c91ba0313e01bcab7b370e4f200\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:22:5-30:19
+MERGED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:22:5-30:19
+MERGED from [:com.google.firebase.firebase-auth-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-license-12.0.1.aar\abe10d004572615767ae2a493c54adba\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.firebase.firebase-auth-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-license-12.0.1.aar\abe10d004572615767ae2a493c54adba\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.firebase.firebase-common-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-12.0.1.aar\44b2f91ee824f60b89f62e0bc202bed9\AndroidManifest.xml:7:5-13:19
+MERGED from [:com.google.firebase.firebase-common-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-12.0.1.aar\44b2f91ee824f60b89f62e0bc202bed9\AndroidManifest.xml:7:5-13:19
+MERGED from [:com.google.firebase.firebase-common-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-license-12.0.1.aar\fc82feb338cf43726579746fc054f24d\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.firebase.firebase-common-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-license-12.0.1.aar\fc82feb338cf43726579746fc054f24d\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.firebase.firebase-core-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-core-12.0.1.aar\32bfde482aa715276194cc52b5e02ecd\AndroidManifest.xml:5:5-20
+MERGED from [:com.google.firebase.firebase-core-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-core-12.0.1.aar\32bfde482aa715276194cc52b5e02ecd\AndroidManifest.xml:5:5-20
+MERGED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:34:5-57:19
+MERGED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:34:5-57:19
+MERGED from [:com.google.firebase.firebase-iid-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-license-12.0.1.aar\cca92343bc29cbab30d6971ca9d9959f\AndroidManifest.xml:22:5-20
+MERGED from [:com.google.firebase.firebase-iid-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-license-12.0.1.aar\cca92343bc29cbab30d6971ca9d9959f\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:4:92-124
+	android:icon
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:4:58-91
+	android:banner
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:4:148-185
+	android:theme
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:4:16-57
+	android:isGame
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:4:125-147
+activity#com.ucfstuds.grandslambaseball2.UnityPlayerActivity
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:5:5-11:16
+	android:screenOrientation
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:5:48-86
+	android:label
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:5:15-47
+	android:launchMode
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:5:87-118
+	android:hardwareAccelerated
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:5:301-336
+	android:configChanges
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:5:119-300
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:5:337-403
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:6:7-9:23
+action#android.intent.action.MAIN
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:7:9-61
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:7:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:8:9-69
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:8:19-66
+meta-data#unityplayer.UnityActivity
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:10:7-82
+	android:value
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:10:59-79
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:10:18-58
+meta-data#unity.build-id
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:12:5-101
+	android:value
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:12:46-98
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:12:16-45
+meta-data#unity.splash-mode
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:13:5-69
+	android:value
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:13:49-66
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:13:16-48
+meta-data#unity.splash-enable
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:14:5-74
+	android:value
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:14:51-71
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:14:16-50
+meta-data#android.max_aspect
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:15:5-72
+	android:value
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:15:50-69
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:15:16-49
+uses-sdk
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:17:3-72
+INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:17:3-72
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\506d36f109fe195dfe9bda4df3f3b74e\AndroidManifest.xml:20:5-22:41
+MERGED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\506d36f109fe195dfe9bda4df3f3b74e\AndroidManifest.xml:20:5-22:41
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\5ca0dd6176b41f3d8f144990c1b8bffb\AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\5ca0dd6176b41f3d8f144990c1b8bffb\AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\7cae04e5cfd3c42a6d1f91039547ec96\AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\7cae04e5cfd3c42a6d1f91039547ec96\AndroidManifest.xml:21:5-23:58
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\ae41b941591fa6edf9e7d3fdac456ae8\AndroidManifest.xml:21:5-23:61
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\ae41b941591fa6edf9e7d3fdac456ae8\AndroidManifest.xml:21:5-23:61
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\c06683986ef66a64117e955b13afd68e\AndroidManifest.xml:21:5-23:60
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\c06683986ef66a64117e955b13afd68e\AndroidManifest.xml:21:5-23:60
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\9bbcb7419f4ed4f6bd34ec9180daf1ba\AndroidManifest.xml:21:5-23:63
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\9bbcb7419f4ed4f6bd34ec9180daf1ba\AndroidManifest.xml:21:5-23:63
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\2018cb3303487d757011177627cb337c\AndroidManifest.xml:21:5-23:54
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\2018cb3303487d757011177627cb337c\AndroidManifest.xml:21:5-23:54
+MERGED from [:com.google.android.gms.play-services-base-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-12.0.1.aar\3dcf5f7efb7ba3bd935fd6f41f2b1240\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-base-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-12.0.1.aar\3dcf5f7efb7ba3bd935fd6f41f2b1240\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-base-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-license-12.0.1.aar\acf9db355b2c6cda0e9cd67cc089ac4d\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-base-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-license-12.0.1.aar\acf9db355b2c6cda0e9cd67cc089ac4d\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-12.0.1.aar\1efac821fbf512637e9203e5fac001ef\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-12.0.1.aar\1efac821fbf512637e9203e5fac001ef\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-license-12.0.1.aar\8ee6e606b535ec75608dd690a36f0a18\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-basement-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-license-12.0.1.aar\8ee6e606b535ec75608dd690a36f0a18\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-12.0.1.aar\1404505de2712ba82440e5709fd061c5\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-12.0.1.aar\1404505de2712ba82440e5709fd061c5\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-license-12.0.1.aar\ef6f423c591ab4c92f5536bf72466ee9\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.android.gms.play-services-tasks-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-tasks-license-12.0.1.aar\ef6f423c591ab4c92f5536bf72466ee9\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-impl-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-license-12.0.1.aar\bb6bf9a3c3e12a03fea8ffa58e030313\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-impl-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-license-12.0.1.aar\bb6bf9a3c3e12a03fea8ffa58e030313\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-license-12.0.1.aar\7f7a1c91ba0313e01bcab7b370e4f200\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-analytics-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-license-12.0.1.aar\7f7a1c91ba0313e01bcab7b370e4f200\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-app-unity-4.5.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-app-unity-4.5.1.aar\7f37405e330c468e59f9467aa255d619\AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-app-unity-4.5.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-app-unity-4.5.1.aar\7f37405e330c468e59f9467aa255d619\AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-auth-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-license-12.0.1.aar\abe10d004572615767ae2a493c54adba\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-auth-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-license-12.0.1.aar\abe10d004572615767ae2a493c54adba\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-auth-unity-4.5.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-unity-4.5.1.aar\f56bd92d4adefdf0916a73439f9e2bfc\AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-auth-unity-4.5.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-unity-4.5.1.aar\f56bd92d4adefdf0916a73439f9e2bfc\AndroidManifest.xml:7:3-41
+MERGED from [:com.google.firebase.firebase-common-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-12.0.1.aar\44b2f91ee824f60b89f62e0bc202bed9\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-common-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-12.0.1.aar\44b2f91ee824f60b89f62e0bc202bed9\AndroidManifest.xml:5:5-44
+MERGED from [:com.google.firebase.firebase-common-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-license-12.0.1.aar\fc82feb338cf43726579746fc054f24d\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-common-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-license-12.0.1.aar\fc82feb338cf43726579746fc054f24d\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-core-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-core-12.0.1.aar\32bfde482aa715276194cc52b5e02ecd\AndroidManifest.xml:4:5-43
+MERGED from [:com.google.firebase.firebase-core-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-core-12.0.1.aar\32bfde482aa715276194cc52b5e02ecd\AndroidManifest.xml:4:5-43
+MERGED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-iid-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-license-12.0.1.aar\cca92343bc29cbab30d6971ca9d9959f\AndroidManifest.xml:20:5-44
+MERGED from [:com.google.firebase.firebase-iid-license-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-license-12.0.1.aar\cca92343bc29cbab30d6971ca9d9959f\AndroidManifest.xml:20:5-44
+MERGED from [:Firebase] C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\Firebase\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-17:40
+MERGED from [:Firebase] C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\Firebase\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-17:40
+INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:17:3-72
+	tools:overrideLibrary
+		ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\5ca0dd6176b41f3d8f144990c1b8bffb\AndroidManifest.xml:23:9-55
+	android:targetSdkVersion
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:17:40-69
+		INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:17:13-39
+uses-feature#0x00020000
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:18:3-52
+	android:glEsVersion
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:18:17-49
+uses-permission#android.permission.INTERNET
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:19:3-65
+MERGED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:23:5-67
+MERGED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:19:20-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:20:3-106
+	android:maxSdkVersion
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:20:77-103
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:20:20-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:21:3-105
+	android:maxSdkVersion
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:21:76-102
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:21:20-75
+uses-feature#android.hardware.touchscreen
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:22:3-88
+	android:required
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:22:61-85
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:22:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:23:3-99
+	android:required
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:23:72-96
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:23:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:24:3-108
+	android:required
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:24:81-105
+	android:name
+		ADDED from C:\dev\master\BasesLoadedTCG\BasesLoadedTCG\Android Studio Project\Grand Slam Baseball Allstars 2 Electric Boogaloo\src\main\AndroidManifest.xml:24:17-80
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\506d36f109fe195dfe9bda4df3f3b74e\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\506d36f109fe195dfe9bda4df3f3b74e\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [:android.arch.lifecycle.runtime-1.0.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\android.arch.lifecycle.runtime-1.0.0.aar\506d36f109fe195dfe9bda4df3f3b74e\AndroidManifest.xml:26:13-58
+meta-data#android.support.VERSION
+ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\5ca0dd6176b41f3d8f144990c1b8bffb\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\7cae04e5cfd3c42a6d1f91039547ec96\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-ui-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-ui-26.1.0.aar\7cae04e5cfd3c42a6d1f91039547ec96\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\ae41b941591fa6edf9e7d3fdac456ae8\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-core-utils-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-core-utils-26.1.0.aar\ae41b941591fa6edf9e7d3fdac456ae8\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\c06683986ef66a64117e955b13afd68e\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-fragment-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-fragment-26.1.0.aar\c06683986ef66a64117e955b13afd68e\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\9bbcb7419f4ed4f6bd34ec9180daf1ba\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-media-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-media-compat-26.1.0.aar\9bbcb7419f4ed4f6bd34ec9180daf1ba\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\2018cb3303487d757011177627cb337c\AndroidManifest.xml:26:9-28:38
+MERGED from [:com.android.support.support-v4-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-v4-26.1.0.aar\2018cb3303487d757011177627cb337c\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\5ca0dd6176b41f3d8f144990c1b8bffb\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [:com.android.support.support-compat-26.1.0:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.android.support.support-compat-26.1.0.aar\5ca0dd6176b41f3d8f144990c1b8bffb\AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [:com.google.android.gms.play-services-base-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-12.0.1.aar\3dcf5f7efb7ba3bd935fd6f41f2b1240\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [:com.google.android.gms.play-services-base-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-12.0.1.aar\3dcf5f7efb7ba3bd935fd6f41f2b1240\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [:com.google.android.gms.play-services-base-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-12.0.1.aar\3dcf5f7efb7ba3bd935fd6f41f2b1240\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [:com.google.android.gms.play-services-base-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-base-12.0.1.aar\3dcf5f7efb7ba3bd935fd6f41f2b1240\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [:com.google.android.gms.play-services-basement-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-12.0.1.aar\1efac821fbf512637e9203e5fac001ef\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [:com.google.android.gms.play-services-basement-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-12.0.1.aar\1efac821fbf512637e9203e5fac001ef\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [:com.google.android.gms.play-services-basement-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.android.gms.play-services-basement-12.0.1.aar\1efac821fbf512637e9203e5fac001ef\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:24:5-79
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:24:5-79
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:24:5-79
+MERGED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:22:5-79
+MERGED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:25:5-68
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:25:5-68
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:25:5-68
+MERGED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:24:5-68
+MERGED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:25:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:28:9-32:20
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:28:9-32:20
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:34:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:43:9-46:40
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:34:9-37:40
+MERGED from [:com.google.firebase.firebase-analytics-impl-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-impl-12.0.1.aar\f2dc04d8d9231ca9566be1a1d4b97882\AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [:com.google.firebase.firebase-analytics-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-analytics-12.0.1.aar\1d657f83e0c94e7f25de8ac4711c3cfe\AndroidManifest.xml:48:13-87
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [:com.google.firebase.firebase-auth-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-auth-12.0.1.aar\e68de0f1362a8dc5ced402b21ce001a4\AndroidManifest.xml:24:13-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [:com.google.firebase.firebase-common-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-12.0.1.aar\44b2f91ee824f60b89f62e0bc202bed9\AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [:com.google.firebase.firebase-common-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-12.0.1.aar\44b2f91ee824f60b89f62e0bc202bed9\AndroidManifest.xml:10:13-105
+	android:exported
+		ADDED from [:com.google.firebase.firebase-common-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-12.0.1.aar\44b2f91ee824f60b89f62e0bc202bed9\AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [:com.google.firebase.firebase-common-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-12.0.1.aar\44b2f91ee824f60b89f62e0bc202bed9\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [:com.google.firebase.firebase-common-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-common-12.0.1.aar\44b2f91ee824f60b89f62e0bc202bed9\AndroidManifest.xml:9:13-77
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:26:22-79
+permission#com.ucfstuds.GrandSlamAllstarsTwoElectricBoogaloo.permission.C2D_MESSAGE
+ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:29:9-96
+uses-permission#com.ucfstuds.GrandSlamAllstarsTwoElectricBoogaloo.permission.C2D_MESSAGE
+ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:32:5-112
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:32:22-109
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:36:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.ucfstuds.GrandSlamAllstarsTwoElectricBoogaloo
+ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:40:25-78
+category#com.ucfstuds.GrandSlamAllstarsTwoElectricBoogaloo
+ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:42:17-94
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:42:27-91
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [:com.google.firebase.firebase-iid-12.0.1:] C:\Users\ronal\.gradle\caches\transforms-1\files-1.1\com.google.firebase.firebase-iid-12.0.1.aar\79e836f6b15d47b0d76fe450366ac481\AndroidManifest.xml:54:25-77

@@ -1,0 +1,4 @@
+#Thu Apr 19 22:01:55 EDT 2018
+base.0=C\:\\dev\\master\\BasesLoadedTCG\\BasesLoadedTCG\\Android Studio Project\\Grand Slam Baseball Allstars 2 Electric Boogaloo\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

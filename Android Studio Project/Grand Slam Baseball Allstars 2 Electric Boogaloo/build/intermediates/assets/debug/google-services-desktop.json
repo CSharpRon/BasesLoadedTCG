@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "1053746513220",
+    "firebase_url": "https://grandslambaseball2.firebaseio.com",
+    "project_id": "grandslambaseball2",
+    "storage_bucket": "grandslambaseball2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053746513220:android:6204078976c99c32",
+        "android_client_info": {
+          "package_name": "com.ucfstuds.grandslambaseball2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053746513220-tp6k8leti3lknote2il63uik5pke4nds.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1053746513220-efq57hl220fri32ffodqqiqj09o647p9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ucfstuds.grandslambaseball2",
+            "certificate_hash": "9ba70639515285d8f15bba3eb3ca22d767e94099"
+          }
+        },
+        {
+          "client_id": "1053746513220-p13jo4vke7fbrma0ejf30lut491uao0j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ucfstuds.grandslambaseball2",
+            "certificate_hash": "9a2977b05a7014379f9330e9b4a56260830cf171"
+          }
+        },
+        {
+          "client_id": "1053746513220-pio13deciuko55rfijfl9gbj2u4hu0s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYZKEQNDpugQeky9vIkQheUE-lud-ViJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1053746513220-tp6k8leti3lknote2il63uik5pke4nds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

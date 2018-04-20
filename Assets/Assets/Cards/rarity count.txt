@@ -1,5 +1,0 @@
-rare 26
-epic 12
-legendary 7
-mythic epic 4
-mythic legendary 1
